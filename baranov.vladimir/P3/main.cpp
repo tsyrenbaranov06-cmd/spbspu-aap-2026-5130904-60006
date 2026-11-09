@@ -21,7 +21,7 @@ int main(int argc, char** argv)
   if (!input)
   {
     std::cerr << "Cannot open input file\n";
-    return processing_error;
+    return argument_error;
   }
   std::size_t result = 0;
   bool empty = false;
@@ -43,7 +43,7 @@ int main(int argc, char** argv)
   if (!output)
   {
     std::cerr << "Cannot open output file\n";
-    return processing_error;
+    return argument_error;
   }
   if (empty)
   {

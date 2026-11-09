@@ -3,7 +3,7 @@
 #include <istream>
 #include <limits>
 
-namespace
+namespace baranov
 {
   constexpr std::size_t stack_capacity = 10000;
 
